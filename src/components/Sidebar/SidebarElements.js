@@ -92,11 +92,3 @@ export const SidebarRoute =styled(LinkR)`
 
     }
 `;
-
-
-
-
-
-
-
-
