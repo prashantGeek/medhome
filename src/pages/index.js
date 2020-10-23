@@ -3,7 +3,9 @@ import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import MedicineSection from '../components/MedicineSection';
-import { homeObjOne,homeObjTwo} from '../components/MedicineSection/data';
+import { homeObjOne,homeObjTwo, homeObjThree} from '../components/MedicineSection/data';
+import Services from '../components/Services';
+import Footer from '../components/Footer';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -17,6 +19,10 @@ const Home = () => {
             <HeroSection />
             <MedicineSection {...homeObjOne}/>
             <MedicineSection {...homeObjTwo}/>
+            <Services />
+            <MedicineSection {...homeObjThree}/>    
+            <Footer />
+            
         </>
     );
 };

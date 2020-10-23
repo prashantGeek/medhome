@@ -17,8 +17,8 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
     id: 'fitness',
-    lightBg: false,
-    lightText: true,
+    lightBg: true,
+    lightText: false,
     lightTextDesc: true,
     topLine: 'HEALTH CORNER',
     headLine: 'Your First Step to Fitness',
@@ -27,6 +27,23 @@ export const homeObjTwo = {
     imgStart: true,
     img: require('../../images/svg-2.svg'),
     alt: 'Workout',
+    dark:true,
+    primary: true,
+    darkText: true
+};
+
+export const homeObjThree = {
+    id: 'signup',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'SIGN UP',
+    headLine: 'We offer convenient home delivery of medicines & general goods.',
+    description: 'Create an Account to get your medicines delivered at your door.',
+    buttonLabel: 'Sign Up',
+    imgStart: false,
+    img: require('../../images/svg-3.svg'),
+    alt: 'Signup',
     dark:true,
     primary: true,
     darkText: false
